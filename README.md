@@ -1,8 +1,11 @@
 # ATE-IT — Automatic Term Extraction (Italian)
-#### Subtask A — Term Extraction Pipeline
+ Top-ranked ensemble system for Subtask A (Term Extraction) of the ATE-IT shared task https://nicolacirillo.github.io/ate-it/
 
+IT utilizes a fine-tuned Italian BERT token classifier and a spaCy NER module, integrated with a vocabulary-based filtering mechanism. The system achieved strong results, significantly outperforming the official baseline on the test set.
+ 
 **Author:** Sofia Maule — University of Padua (2025–2026)
 
+#### Subtask A — Term Extraction Pipeline
 ## Overview
 
 This repository contains my experiments and final system for the **ATE-IT shared task — Subtask A: Automatic Term Extraction** on Italian texts.
